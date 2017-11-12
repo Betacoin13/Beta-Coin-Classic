@@ -1,9 +1,9 @@
-Building CRYSTAL
+Building betacoinclassic
 
-See doc/readme-qt.rst for instructions on building CRYSTAL-Qt,
+See doc/readme-qt.rst for instructions on building betacoinclassic-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of CRYSTAL.
+implementation of betacoinclassic.
 
-See doc/build-*.txt for instructions on building CRYSTALd,
+See doc/build-*.txt for instructions on building betacoinclassicd,
 the intended-for-services, no-graphical-interface, reference
-implementation of CRYSTAL.
+implementation of betacoinclassic.

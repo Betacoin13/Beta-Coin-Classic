@@ -1,6 +1,6 @@
 TEMPLATE = app
-TARGET = CRYSTAL-qt
-macx:TARGET = "CRYSTAL-Qt"
+TARGET = betacoinclassic-qt
+macx:TARGET = "betacoinclassic-Qt"
 VERSION = 1.0.0.1
 INCLUDEPATH += src src/json src/qt
 QT += network
