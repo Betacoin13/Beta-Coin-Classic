@@ -1114,7 +1114,7 @@ void ThreadMapPort()
             }
         }
 
-        string strDesc = "CRYSTAL " + FormatFullVersion();
+        string strDesc = "betacoinclassic " + FormatFullVersion();
 
         try {
             loop {
@@ -1194,10 +1194,10 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {
+    {"cryptolife.net","wallet.cryptolife.net"},
+    {"cryptolife.net","explore.cryptolife.net"},
     {"cryptolife.net","seed5.cryptolife.net"},
-    {"seed.net","165.227.78.108"},
-    {"cryptolife.net","seed1.cryptolife.net"},
-    {"cryptolife.net","seed2.cryptolife.net"},
+    {"cryptolife.net","seed3.cryptolife.net"},
     {NULL, NULL}
 };
 
@@ -1684,7 +1684,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. CRYSTAL is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. betacoinclassic is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());

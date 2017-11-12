@@ -34,7 +34,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0xd083327e246e4fafdf67100c544f642d71d1bde905a39e86ce086365fa3c8634");
+uint256 hashGenesisBlock("0xae419f4ede6cbf1a7d178b526aa296222f21a90fc0b63c0d0b59ac34c5ca1c8a");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20);
 static CBigNum bnStartDifficulty(~uint256(0) >> 20);
 CBlockIndex* pindexGenesisBlock = NULL;
@@ -53,9 +53,9 @@ bool fTxIndex = false;
 unsigned int nCoinCacheSize = 5000;
 
 /** Fees smaller than this (in satoshi) are considered zero fee (for transaction creation) */
-int64 CTransaction::nMinTxFee = 0.00001 * COIN;
+int64 CTransaction::nMinTxFee = 0.0001 * COIN;
 /** Fees smaller than this (in satoshi) are considered zero fee (for relaying) */
-int64 CTransaction::nMinRelayTxFee = 0.00001 * COIN;
+int64 CTransaction::nMinRelayTxFee = 0.0001 * COIN;
 
 CMedianFilter<int> cPeerBlockCounts(8, 0); // Amount of blocks that other nodes claim to have
 
@@ -68,7 +68,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "CRYSTAL Signed Message:\n";
+const string strMessageMagic = "betacoinclassic Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
@@ -359,7 +359,7 @@ unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
 
 bool CTxOut::IsDust() const
 {
-    // CRYSTAL: IsDust() detection disabled, allows any valid dust to be relayed.
+    // betacoinclassic: IsDust() detection disabled, allows any valid dust to be relayed.
     // The fees imposed on each dust txo is considered sufficient spam deterrant. 
     return false;
 }
@@ -631,7 +631,7 @@ int64 CTransaction::GetMinFee(unsigned int nBlockSize, bool fAllowFree,
 #endif
     }
 
-    // CRYSTAL
+    // betacoinclassic
     // To limit dust spam, add nBaseFee for each output less than DUST_SOFT_LIMIT
     BOOST_FOREACH(const CTxOut& txout, vout)
         if (txout.nValue < DUST_SOFT_LIMIT)
@@ -1090,13 +1090,12 @@ int static generateMTRandom(unsigned int s, int range)
 int64 static GetBlockValue(int nHeight, int64 nFees, uint256 prevHash)
 {
     int64 nSubsidy = 1 * COIN;
-
-
-	if (nHeight == 2)
-		return 100000000 * COIN;
 	
 	// Subsidy halving
-    nSubsidy >>= (nHeight / 75000000);
+    nSubsidy >>= (nHeight / 205000000);
+	
+	if (nHeight == 5)
+		return 400000000 * COIN;
     
     return nSubsidy + nFees;
 }
@@ -2263,7 +2262,7 @@ bool CBlock::AcceptBlock(CValidationState &state, CDiskBlockPos *dbp)
 
 bool CBlockIndex::IsSuperMajority(int minVersion, const CBlockIndex* pstart, unsigned int nRequired, unsigned int nToCheck)
 {
-    // CRYSTAL: temporarily disable v2 block lockin until we are ready for v2 transition
+    // betacoinclassic: temporarily disable v2 block lockin until we are ready for v2 transition
     return false;
     unsigned int nFound = 0;
     for (unsigned int i = 0; i < nToCheck && nFound < nRequired && pstart != NULL; i++)
@@ -2776,7 +2775,7 @@ bool InitBlockIndex() {
     if (!fReindex) {
 
         // Genesis block
-        const char* pszTimestamp = "deep genesis block";
+        const char* pszTimestamp = "beta genesis block";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -2788,9 +2787,9 @@ bool InitBlockIndex() {
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1502124645;
+        block.nTime    = 1510186332;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 174252;
+        block.nNonce   = 1083834;
 
         if (fTestNet)
         {
@@ -2804,7 +2803,7 @@ bool InitBlockIndex() {
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
 
-	    //assert(block.hashMerkleRoot == uint256("0x35e6a0e897ed76cd5f08b75d118fb7c99aec7cdd297b96c21dc6671d2034c953"));
+	    assert(block.hashMerkleRoot == uint256("0x442984cc0fe8c78d67ee2a0bbe9163b5e6b1a7759f5996dfa7a972ef00dad77e"));
         block.print();
 	    assert(hash == hashGenesisBlock);	
 
@@ -3077,7 +3076,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment. pchmess0agestart
-unsigned char pchMessageStart[4] = { 0xd4, 0xc1, 0xaf, 0xeb };
+unsigned char pchMessageStart[4] = { 0xd9, 0xc2, 0xaf, 0xeb };
 
 
 void static ProcessGetData(CNode* pfrom)
@@ -4119,7 +4118,7 @@ bool SendMessages(CNode* pto, bool fSendTrickle)
 
 //////////////////////////////////////////////////////////////////////////////
 //
-// CRYSTALMiner
+// betacoinclassicMiner
 //
 
 int static FormatHashBlocks(void* pbuffer, unsigned int len)
@@ -4532,7 +4531,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         return false;
 
     //// debug print
-    printf("CRYSTALMiner:\n");
+    printf("betacoinclassicMiner:\n");
     printf("proof-of-work found  \n  hash: %s  \ntarget: %s\n", hash.GetHex().c_str(), hashTarget.GetHex().c_str());
     pblock->print();
     printf("generated %s\n", FormatMoney(pblock->vtx[0].vout[0].nValue).c_str());
@@ -4541,7 +4540,7 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
     {
         LOCK(cs_main);
         if (pblock->hashPrevBlock != hashBestChain)
-            return error("CRYSTALMiner : generated block is stale");
+            return error("betacoinclassicMiner : generated block is stale");
 
         // Remove key from key pool
         reservekey.KeepKey();
@@ -4555,17 +4554,17 @@ bool CheckWork(CBlock* pblock, CWallet& wallet, CReserveKey& reservekey)
         // Process this block the same as if we had received it from another node
         CValidationState state;
         if (!ProcessBlock(state, NULL, pblock))
-            return error("CRYSTALMiner : ProcessBlock, block not accepted");
+            return error("betacoinclassicMiner : ProcessBlock, block not accepted");
     }
 
     return true;
 }
 
-void static CRYSTALMiner(CWallet *pwallet)
+void static betacoinclassicMiner(CWallet *pwallet)
 {
-    printf("CRYSTALMiner started\n");
+    printf("betacoinclassicMiner started\n");
     SetThreadPriority(THREAD_PRIORITY_LOWEST);
-    RenameThread("CRYSTAL-miner");
+    RenameThread("betacoinclassic-miner");
 
     // Each thread has its own key and counter
     CReserveKey reservekey(pwallet);
@@ -4587,7 +4586,7 @@ void static CRYSTALMiner(CWallet *pwallet)
         CBlock *pblock = &pblocktemplate->block;
         IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
 
-        printf("Running CRYSTALMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
+        printf("Running betacoinclassicMiner with %"PRIszu" transactions in block (%u bytes)\n", pblock->vtx.size(),
                ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
 
         //
@@ -4699,7 +4698,7 @@ void static CRYSTALMiner(CWallet *pwallet)
     } }
     catch (boost::thread_interrupted)
     {
-        printf("CRYSTALMiner terminated\n");
+        printf("betacoinclassicMiner terminated\n");
         throw;
     }
 }
@@ -4724,7 +4723,7 @@ void GenerateBitcoins(bool fGenerate, CWallet* pwallet)
 
     minerThreads = new boost::thread_group();
     for (int i = 0; i < nThreads; i++)
-        minerThreads->create_thread(boost::bind(&CRYSTALMiner, pwallet));
+        minerThreads->create_thread(boost::bind(&betacoinclassicMiner, pwallet));
 }
 
 // Amount compression:
