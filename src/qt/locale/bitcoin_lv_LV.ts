@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CRYSTAL</source>
-        <translation>Par CRYSTAL</translation>
+        <source>About betacoinclassic</source>
+        <translation>Par betacoinclassic</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CRYSTAL&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CRYSTAL&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;betacoinclassic&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;betacoinclassic&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The CRYSTAL developers</source>
+        <source>The betacoinclassic developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,7 +62,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your CRYSTAL addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your betacoinclassic addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -77,7 +77,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a CRYSTAL address</source>
+        <source>Sign a message to prove you own a betacoinclassic address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -102,7 +102,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified CRYSTAL address</source>
+        <source>Verify a message to ensure it was signed with a specified betacoinclassic address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -117,7 +117,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your CRYSTAL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your betacoinclassic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -243,7 +243,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRYSTALS&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR betacoinclassicS&lt;/b&gt;!</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>CRYSTAL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRYSTALs from being stolen by malware infecting your computer.</source>
-        <translation>CRYSTAL aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+        <source>betacoinclassic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your betacoinclassics from being stolen by malware infecting your computer.</source>
+        <translation>betacoinclassic aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CRYSTAL</source>
-        <translation>Parādīt informāciju par CRYSTAL</translation>
+        <source>Show information about betacoinclassic</source>
+        <translation>Parādīt informāciju par betacoinclassic</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a CRYSTAL address</source>
-        <translation>Nosūtīt bitkoinus uz CRYSTAL adresi</translation>
+        <source>Send coins to a betacoinclassic address</source>
+        <translation>Nosūtīt bitkoinus uz betacoinclassic adresi</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for CRYSTAL</source>
-        <translation>Mainīt CRYSTAL konfigurācijas uzstādījumus</translation>
+        <source>Modify configuration options for betacoinclassic</source>
+        <translation>Mainīt betacoinclassic konfigurācijas uzstādījumus</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,7 +450,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>CRYSTAL</source>
+        <source>betacoinclassic</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -475,7 +475,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About CRYSTAL</source>
+        <source>&amp;About betacoinclassic</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -495,12 +495,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your CRYSTAL addresses to prove you own them</source>
+        <source>Sign messages with your betacoinclassic addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified CRYSTAL addresses</source>
+        <source>Verify messages to ensure they were signed with specified betacoinclassic addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>CRYSTAL client</source>
-        <translation>CRYSTAL klients</translation>
+        <source>betacoinclassic client</source>
+        <translation>betacoinclassic klients</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to CRYSTAL network</source>
-        <translation><numerusform>%n aktīvu savienojumu ar CRYSTAL tīklu</numerusform><numerusform>%n aktīvs savienojums ar CRYSTAL tīklu</numerusform><numerusform>%n aktīvu savienojumu as CRYSTAL tīklu</numerusform></translation>
+        <source>%n active connection(s) to betacoinclassic network</source>
+        <translation><numerusform>%n aktīvu savienojumu ar betacoinclassic tīklu</numerusform><numerusform>%n aktīvs savienojums ar betacoinclassic tīklu</numerusform><numerusform>%n aktīvu savienojumu as betacoinclassic tīklu</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -651,7 +651,7 @@ Adrese: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid CRYSTAL address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid betacoinclassic address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -666,7 +666,7 @@ Adrese: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. CRYSTAL can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. betacoinclassic can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -732,8 +732,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CRYSTAL address.</source>
-        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga CRYSTAL adrese.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid betacoinclassic address.</source>
+        <translation>Ierakstītā adrese &quot;%1&quot; nav derīga betacoinclassic adrese.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -751,8 +751,8 @@ Adrese: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>CRYSTAL-Qt</source>
-        <translation>CRYSTAL-Qt</translation>
+        <source>betacoinclassic-Qt</source>
+        <translation>betacoinclassic-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -814,13 +814,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CRYSTAL after logging in to the system.</source>
-        <translation>Automātiski sākt CRYSTAL pēc pieteikšanās sistēmā.</translation>
+        <source>Automatically start betacoinclassic after logging in to the system.</source>
+        <translation>Automātiski sākt betacoinclassic pēc pieteikšanās sistēmā.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CRYSTAL on system login</source>
-        <translation>&amp;Sākt CRYSTAL reizē ar sistēmu</translation>
+        <source>&amp;Start betacoinclassic on system login</source>
+        <translation>&amp;Sākt betacoinclassic reizē ar sistēmu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -839,8 +839,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CRYSTAL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Uz rūtera automātiski atvērt CRYSTAL klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
+        <source>Automatically open the betacoinclassic client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Uz rūtera automātiski atvērt betacoinclassic klienta portu. Tas strādā tikai tad, ja rūteris atbalsta UPnP un tas ir ieslēgts.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -849,7 +849,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CRYSTAL network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the betacoinclassic network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -924,8 +924,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CRYSTAL.</source>
-        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc CRYSTAL pārstartēšanas.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting betacoinclassic.</source>
+        <translation>Šeit var iestatīt lietotāja valodu. Iestatījums aktivizēsies pēc betacoinclassic pārstartēšanas.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -939,8 +939,8 @@ Adrese: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show CRYSTAL addresses in the transaction list or not.</source>
-        <translation>Rādīt vai nē CRYSTAL adreses transakciju sarakstā.</translation>
+        <source>Whether to show betacoinclassic addresses in the transaction list or not.</source>
+        <translation>Rādīt vai nē betacoinclassic adreses transakciju sarakstā.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -991,7 +991,7 @@ Adrese: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CRYSTAL.</source>
+        <source>This setting will take effect after restarting betacoinclassic.</source>
         <translation>Iestatījums aktivizēsies pēc Bitkoin pārstartēšanas.</translation>
     </message>
     <message>
@@ -1010,8 +1010,8 @@ Adrese: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CRYSTAL network after a connection is established, but this process has not completed yet.</source>
-        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar CRYSTAL tīklu, taču šis process vēl nav beidzies.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the betacoinclassic network after a connection is established, but this process has not completed yet.</source>
+        <translation>Attēlotā informācija var būt novecojusi. Jūsu maciņš pēc savienojuma izveides automātiski sinhronizējas ar betacoinclassic tīklu, taču šis process vēl nav beidzies.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1064,7 +1064,7 @@ Adrese: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start CRYSTAL: click-to-pay handler</source>
+        <source>Cannot start betacoinclassic: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1214,7 +1214,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CRYSTAL-Qt help message to get a list with possible CRYSTAL command-line options.</source>
+        <source>Show the betacoinclassic-Qt help message to get a list with possible betacoinclassic command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1234,12 +1234,12 @@ Adrese: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>CRYSTAL - Debug window</source>
+        <source>betacoinclassic - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>CRYSTAL Core</source>
+        <source>betacoinclassic Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1249,7 +1249,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CRYSTAL debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the betacoinclassic debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1259,8 +1259,8 @@ Adrese: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the CRYSTAL RPC console.</source>
-        <translation>Laipni lūgti CRYSTAL RPC konsolē.</translation>
+        <source>Welcome to the betacoinclassic RPC console.</source>
+        <translation>Laipni lūgti betacoinclassic RPC konsolē.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1443,8 +1443,8 @@ Adrese: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CRYSTAL address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ierakstiet CRYSTAL adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a betacoinclassic address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ierakstiet betacoinclassic adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1508,7 +1508,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CRYSTAL address</source>
+        <source>Sign the message to prove you own this betacoinclassic address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1544,7 +1544,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CRYSTAL address</source>
+        <source>Verify the message to ensure it was signed with the specified betacoinclassic address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1560,8 +1560,8 @@ Adrese: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CRYSTAL address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Ierakstiet CRYSTAL adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a betacoinclassic address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Ierakstiet betacoinclassic adresi (piem. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1570,7 +1570,7 @@ Adrese: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CRYSTAL signature</source>
+        <source>Enter betacoinclassic signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1644,7 +1644,7 @@ Adrese: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The CRYSTAL developers</source>
+        <source>The betacoinclassic developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2182,8 +2182,8 @@ Adrese: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>CRYSTAL version</source>
-        <translation>CRYSTAL versija</translation>
+        <source>betacoinclassic version</source>
+        <translation>betacoinclassic versija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2192,8 +2192,8 @@ Adrese: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or CRYSTALd</source>
-        <translation>Nosūtīt komantu uz -server vai CRYSTALd</translation>
+        <source>Send command to -server or betacoinclassicd</source>
+        <translation>Nosūtīt komantu uz -server vai betacoinclassicd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2212,13 +2212,13 @@ Adrese: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: CRYSTAL.conf)</source>
-        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: CRYSTAL.conf)</translation>
+        <source>Specify configuration file (default: betacoinclassic.conf)</source>
+        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: betacoinclassic.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: CRYSTALd.pid)</source>
-        <translation>Norādiet pid failu (pēc noklusēšanas: CRYSTALd.pid)</translation>
+        <source>Specify pid file (default: betacoinclassicd.pid)</source>
+        <translation>Norādiet pid failu (pēc noklusēšanas: betacoinclassicd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2295,13 +2295,13 @@ Adrese: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=CRYSTALrpc
+rpcuser=betacoinclassicrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;betacoinclassic Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2317,7 +2317,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CRYSTAL is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. betacoinclassic is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2362,7 +2362,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CRYSTAL will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong betacoinclassic will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2612,7 +2612,7 @@ for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the CRYSTAL Wiki for SSL setup instructions)</source>
+        <source>SSL options: (see the betacoinclassic Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2802,13 +2802,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CRYSTAL</source>
-        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka CRYSTAL versija</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of betacoinclassic</source>
+        <translation>Nevar ielādēt wallet.dat: maciņa atvēršanai nepieciešama jaunāka betacoinclassic versija</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart CRYSTAL to complete</source>
-        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet CRYSTAL</translation>
+        <source>Wallet needed to be rewritten: restart betacoinclassic to complete</source>
+        <translation>Bija nepieciešams pārstartēt maciņu: pabeigšanai pārstartējiet betacoinclassic</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2867,8 +2867,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. CRYSTAL is probably already running.</source>
-        <translation>Nevar pievienoties %s uz šī datora. CRYSTAL droši vien jau darbojas.</translation>
+        <source>Unable to bind to %s on this computer. betacoinclassic is probably already running.</source>
+        <translation>Nevar pievienoties %s uz šī datora. betacoinclassic droši vien jau darbojas.</translation>
     </message>
     <message>
         <location line="+64"/>

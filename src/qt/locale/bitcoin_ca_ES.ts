@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About CRYSTAL</source>
-        <translation>Sobre CRYSTAL</translation>
+        <source>About betacoinclassic</source>
+        <translation>Sobre betacoinclassic</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;CRYSTAL&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;CRYSTAL&lt;/b&gt; versió</translation>
+        <source>&lt;b&gt;betacoinclassic&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;betacoinclassic&lt;/b&gt; versió</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -29,7 +29,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The CRYSTAL developers</source>
+        <source>The betacoinclassic developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your CRYSTAL addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces CRYSTAL per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
+        <source>These are your betacoinclassic addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces betacoinclassic per a rebre pagaments. Pot interesar-te proveïr diferents adreces a cadascun dels enviadors així pots identificar qui et va pagant.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a CRYSTAL address</source>
-        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça CRYSTAL</translation>
+        <source>Sign a message to prove you own a betacoinclassic address</source>
+        <translation>Signa el missatge per provar que ets propietari de l&apos;adreça betacoinclassic</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -102,8 +102,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified CRYSTAL address</source>
-        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça CRYSTAL específica</translation>
+        <source>Verify a message to ensure it was signed with a specified betacoinclassic address</source>
+        <translation>Verificar un missatge per asegurar-se que ha estat signat amb una adreça betacoinclassic específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -117,8 +117,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your CRYSTAL addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són la seva adreça de CRYSTAL per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
+        <source>These are your betacoinclassic addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són la seva adreça de betacoinclassic per enviar els pagaments. Sempre revisi la quantitat i l&apos;adreça del destinatari abans transferència de monedes.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -243,8 +243,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR CRYSTALS&lt;/b&gt;!</source>
-        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES CRYSTALS&lt;/b&gt;!</translation>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR betacoinclassicS&lt;/b&gt;!</source>
+        <translation>Advertència: Si encripteu el vostre moneder i perdeu la constrasenya, &lt;b&gt;PERDREU TOTS ELS VOSTRES betacoinclassicS&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -270,8 +270,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>CRYSTAL will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your CRYSTALs from being stolen by malware infecting your computer.</source>
-        <translation>CRYSTAL es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus CRYSTALs de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
+        <source>betacoinclassic will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your betacoinclassics from being stolen by malware infecting your computer.</source>
+        <translation>betacoinclassic es tancarà ara per acabar el procés d&apos;encriptació. Recorda que encriptar el teu moneder no protegeix completament els teus betacoinclassics de ser robades per programari maliciós instal·lat al teu ordinador.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -369,8 +369,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about CRYSTAL</source>
-        <translation>Mostra informació sobre CRYSTAL</translation>
+        <source>Show information about betacoinclassic</source>
+        <translation>Mostra informació sobre betacoinclassic</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -414,13 +414,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a CRYSTAL address</source>
-        <translation>Enviar monedes a una adreça CRYSTAL</translation>
+        <source>Send coins to a betacoinclassic address</source>
+        <translation>Enviar monedes a una adreça betacoinclassic</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for CRYSTAL</source>
-        <translation>Modificar les opcions de configuració per CRYSTAL</translation>
+        <source>Modify configuration options for betacoinclassic</source>
+        <translation>Modificar les opcions de configuració per betacoinclassic</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -450,8 +450,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>CRYSTAL</source>
-        <translation>CRYSTAL</translation>
+        <source>betacoinclassic</source>
+        <translation>betacoinclassic</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -475,8 +475,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About CRYSTAL</source>
-        <translation>&amp;Sobre CRYSTAL</translation>
+        <source>&amp;About betacoinclassic</source>
+        <translation>&amp;Sobre betacoinclassic</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -495,13 +495,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your CRYSTAL addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de CRYSTAL per provar que les poseeixes</translation>
+        <source>Sign messages with your betacoinclassic addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de betacoinclassic per provar que les poseeixes</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified CRYSTAL addresses</source>
-        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça CRYSTAL específica.</translation>
+        <source>Verify messages to ensure they were signed with specified betacoinclassic addresses</source>
+        <translation>Verificar els missatges per assegurar-te que han estat signades amb una adreça betacoinclassic específica.</translation>
     </message>
     <message>
         <location line="+28"/>
@@ -531,13 +531,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+47"/>
-        <source>CRYSTAL client</source>
-        <translation>Client CRYSTAL</translation>
+        <source>betacoinclassic client</source>
+        <translation>Client betacoinclassic</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to CRYSTAL network</source>
-        <translation><numerusform>%n connexió activa a la xarxa CRYSTAL</numerusform><numerusform>%n connexions actives a la xarxa CRYSTAL</numerusform></translation>
+        <source>%n active connection(s) to betacoinclassic network</source>
+        <translation><numerusform>%n connexió activa a la xarxa betacoinclassic</numerusform><numerusform>%n connexions actives a la xarxa betacoinclassic</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -647,8 +647,8 @@ Address: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid CRYSTAL address or malformed URI parameters.</source>
-        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça CRYSTAL invalida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid betacoinclassic address or malformed URI parameters.</source>
+        <translation>la URI no pot ser processada! Això es pot ser causat per una adreça betacoinclassic invalida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -662,8 +662,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. CRYSTAL can no longer continue safely and will quit.</source>
-        <translation>Ha tingut lloc un error fatal. CRYSTAL no pot continuar executant-se de manera segura i es tancará.</translation>
+        <source>A fatal error occurred. betacoinclassic can no longer continue safely and will quit.</source>
+        <translation>Ha tingut lloc un error fatal. betacoinclassic no pot continuar executant-se de manera segura i es tancará.</translation>
     </message>
 </context>
 <context>
@@ -728,8 +728,8 @@ Address: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid CRYSTAL address.</source>
-        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça CRYSTAL valida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid betacoinclassic address.</source>
+        <translation>L&apos;adreça introduida &quot;%1&quot; no és una adreça betacoinclassic valida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -747,8 +747,8 @@ Address: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>CRYSTAL-Qt</source>
-        <translation>CRYSTAL-Qt</translation>
+        <source>betacoinclassic-Qt</source>
+        <translation>betacoinclassic-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -810,13 +810,13 @@ Address: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start CRYSTAL after logging in to the system.</source>
-        <translation>Iniciar automàticament CRYSTAL després de l&apos;inici de sessió del sistema.</translation>
+        <source>Automatically start betacoinclassic after logging in to the system.</source>
+        <translation>Iniciar automàticament betacoinclassic després de l&apos;inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start CRYSTAL on system login</source>
-        <translation>&amp;Iniciar CRYSTAL al inici de sessió del sistema.</translation>
+        <source>&amp;Start betacoinclassic on system login</source>
+        <translation>&amp;Iniciar betacoinclassic al inici de sessió del sistema.</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -835,8 +835,8 @@ Address: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the CRYSTAL client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir el port del client de CRYSTAL al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
+        <source>Automatically open the betacoinclassic client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir el port del client de betacoinclassic al router de forma automàtica. Això només funciona quan el teu router implementa UPnP i l&apos;opció està activada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -845,8 +845,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the CRYSTAL network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connectar a la xarxa CRYSTAL a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
+        <source>Connect to the betacoinclassic network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connectar a la xarxa betacoinclassic a través de un SOCKS proxy (per exemple connectant a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -920,8 +920,8 @@ Address: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting CRYSTAL.</source>
-        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï CRYSTAL.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting betacoinclassic.</source>
+        <translation>Aquí pots definir el llenguatge de l&apos;aplicatiu. Aquesta configuració tindrà efecte un cop es reiniciï betacoinclassic.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -935,8 +935,8 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show CRYSTAL addresses in the transaction list or not.</source>
-        <translation>Mostrar adreces CRYSTAL als llistats de transaccions o no.</translation>
+        <source>Whether to show betacoinclassic addresses in the transaction list or not.</source>
+        <translation>Mostrar adreces betacoinclassic als llistats de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -987,8 +987,8 @@ Address: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting CRYSTAL.</source>
-        <translation>Aquesta configuració tindrà efecte un cop es reiniciï CRYSTAL.</translation>
+        <source>This setting will take effect after restarting betacoinclassic.</source>
+        <translation>Aquesta configuració tindrà efecte un cop es reiniciï betacoinclassic.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1006,8 +1006,8 @@ Address: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the CRYSTAL network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa CRYSTAL un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the betacoinclassic network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa betacoinclassic un cop s&apos;ha establert connexió, però aquest proces no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-124"/>
@@ -1060,8 +1060,8 @@ Address: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start CRYSTAL: click-to-pay handler</source>
-        <translation>No es pot iniciar CRYSTAL: manejador clicla-per-pagar</translation>
+        <source>Cannot start betacoinclassic: click-to-pay handler</source>
+        <translation>No es pot iniciar betacoinclassic: manejador clicla-per-pagar</translation>
     </message>
 </context>
 <context>
@@ -1210,8 +1210,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the CRYSTAL-Qt help message to get a list with possible CRYSTAL command-line options.</source>
-        <translation>Mostrar el missatge d&apos;ajuda de CRYSTAL-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de CRYSTAL.</translation>
+        <source>Show the betacoinclassic-Qt help message to get a list with possible betacoinclassic command-line options.</source>
+        <translation>Mostrar el missatge d&apos;ajuda de betacoinclassic-Qt per a obtenir un llistat de possibles ordres per a la línia d&apos;ordres de betacoinclassic.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1230,13 +1230,13 @@ Address: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>CRYSTAL - Debug window</source>
-        <translation>CRYSTAL -Finestra de debug</translation>
+        <source>betacoinclassic - Debug window</source>
+        <translation>betacoinclassic -Finestra de debug</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>CRYSTAL Core</source>
-        <translation>Nucli de CRYSTAL</translation>
+        <source>betacoinclassic Core</source>
+        <translation>Nucli de betacoinclassic</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1245,8 +1245,8 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the CRYSTAL debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obrir el dietari de debug de CRYSTAL del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
+        <source>Open the betacoinclassic debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obrir el dietari de debug de betacoinclassic del directori de dades actual. Aixó pot trigar uns quants segons per a dietàris grossos.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1255,8 +1255,8 @@ Address: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the CRYSTAL RPC console.</source>
-        <translation>Benvingut a la consola RPC de CRYSTAL</translation>
+        <source>Welcome to the betacoinclassic RPC console.</source>
+        <translation>Benvingut a la consola RPC de betacoinclassic</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1439,8 +1439,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a CRYSTAL address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introdueixi una adreça de CRYSTAL (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a betacoinclassic address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introdueixi una adreça de betacoinclassic (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
 <context>
@@ -1504,8 +1504,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this CRYSTAL address</source>
-        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça CRYSTAL</translation>
+        <source>Sign the message to prove you own this betacoinclassic address</source>
+        <translation>Signa el missatge per provar que ets propietari d&apos;aquesta adreça betacoinclassic</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1540,8 +1540,8 @@ Address: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified CRYSTAL address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça CRYSTAL específica</translation>
+        <source>Verify the message to ensure it was signed with the specified betacoinclassic address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça betacoinclassic específica</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1556,8 +1556,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a CRYSTAL address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Introdueixi una adreça de CRYSTAL (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a betacoinclassic address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <translation>Introdueixi una adreça de betacoinclassic (per exemple Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1566,8 +1566,8 @@ Address: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter CRYSTAL signature</source>
-        <translation>Introduïr una clau CRYSTAL</translation>
+        <source>Enter betacoinclassic signature</source>
+        <translation>Introduïr una clau betacoinclassic</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1640,7 +1640,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The CRYSTAL developers</source>
+        <source>The betacoinclassic developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2178,8 +2178,8 @@ Address: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>CRYSTAL version</source>
-        <translation>Versió de CRYSTAL</translation>
+        <source>betacoinclassic version</source>
+        <translation>Versió de betacoinclassic</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2188,8 +2188,8 @@ Address: %4
     </message>
     <message>
         <location line="-29"/>
-        <source>Send command to -server or CRYSTALd</source>
-        <translation>Enviar comanda a -servidor o CRYSTALd</translation>
+        <source>Send command to -server or betacoinclassicd</source>
+        <translation>Enviar comanda a -servidor o betacoinclassicd</translation>
     </message>
     <message>
         <location line="-23"/>
@@ -2208,13 +2208,13 @@ Address: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: CRYSTAL.conf)</source>
-        <translation>Especificat arxiu de configuració (per defecte: CRYSTAL.conf)</translation>
+        <source>Specify configuration file (default: betacoinclassic.conf)</source>
+        <translation>Especificat arxiu de configuració (per defecte: betacoinclassic.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: CRYSTALd.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: CRYSTALd.pid)</translation>
+        <source>Specify pid file (default: betacoinclassicd.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: betacoinclassicd.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -2291,15 +2291,15 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=CRYSTALrpc
+rpcuser=betacoinclassicrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;betacoinclassic Alert&quot; admin@foo.com
 </source>
-        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=CRYSTALrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.com</translation>
+        <translation>%s has de establir una contrasenya RPC a l&apos;arxiu de configuració:\n%s\nEs recomana que useu la següent constrasenya aleatòria:\nrpcuser=betacoinclassicrpc\nrpcpassword=%s\n(no necesiteu recordar aquesta contrsenya)\nEl nom d&apos;usuari i contrasenya NO HAN de ser els mateixos.\nSi l&apos;arxiu no existeix, crea&apos;l amb els permisos d&apos;arxiu de només lectura per al propietari.\nTambé es recomana establir la notificació d&apos;alertes i així seràs notificat de les incidències;\nper exemple: alertnotify=echo %%s | mail -s &quot;betacoinclassic Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2313,8 +2313,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. CRYSTAL is probably already running.</source>
-        <translation>No es pot bloquejar el directori de dades %s. Probablement CRYSTAL ja estigui en execució.</translation>
+        <source>Cannot obtain a lock on data directory %s. betacoinclassic is probably already running.</source>
+        <translation>No es pot bloquejar el directori de dades %s. Probablement betacoinclassic ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2358,8 +2358,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong CRYSTAL will not work properly.</source>
-        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, CRYSTAL no funcionará de manera apropiada.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong betacoinclassic will not work properly.</source>
+        <translation>Advertència: Si us plau comprovi que la data i hora del seu computador siguin correctes! Si el seu rellotge està mal configurat, betacoinclassic no funcionará de manera apropiada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2608,8 +2608,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the CRYSTAL Wiki for SSL setup instructions)</source>
-        <translation>Opcions SSL: (veure la Wiki de CRYSTAL per a instruccions de configuració SSL)</translation>
+        <source>SSL options: (see the betacoinclassic Wiki for SSL setup instructions)</source>
+        <translation>Opcions SSL: (veure la Wiki de betacoinclassic per a instruccions de configuració SSL)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2798,13 +2798,13 @@ for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of CRYSTAL</source>
-        <translation>Error carregant wallet.dat: El moneder requereix una versió de CRYSTAL més moderna</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of betacoinclassic</source>
+        <translation>Error carregant wallet.dat: El moneder requereix una versió de betacoinclassic més moderna</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart CRYSTAL to complete</source>
-        <translation>El moneder necesita ser re-escrit: re-inicia CRYSTAL per a completar la tasca</translation>
+        <source>Wallet needed to be rewritten: restart betacoinclassic to complete</source>
+        <translation>El moneder necesita ser re-escrit: re-inicia betacoinclassic per a completar la tasca</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2863,8 +2863,8 @@ for example: alertnotify=echo %%s | mail -s &quot;CRYSTAL Alert&quot; admin@foo.
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. CRYSTAL is probably already running.</source>
-        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement CRYSTAL ja estigui en execució.</translation>
+        <source>Unable to bind to %s on this computer. betacoinclassic is probably already running.</source>
+        <translation>Impossible d&apos;unir %s en aquest ordinador. Probablement betacoinclassic ja estigui en execució.</translation>
     </message>
     <message>
         <location line="+64"/>
